@@ -1,0 +1,7 @@
+verde-claro = 98FB98
+verde-escuro = 006400
+azul-bebe = 87CEEB
+laranja = FFA07A
+branca = FFFFFF
+cinza = D3D3D3
+amarelo-claro = FFFFE0
