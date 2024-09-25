@@ -1,0 +1,58 @@
+{% extends 'shared/base.html' %}
+{% load static %}
+{% block content %}
+    {% include 'partials/_menu.html' %}
+    <main class="main-container">
+        <div class="main-image-section">
+            <img src="{% static 'assets/imagens/img-main.png' %}" alt="Crianças brincando">
+        </div>
+        <div class="main-info-section">
+            <h1>BRASIL</h1>
+            <div class="info-columns-container">
+                <div class="info-column">
+                    <h1>21 milhões</h1>
+                    <p>de pessoas passam fome no Brasil, de acordo com o relatório da ONU, 2020.</p>
+                </div>
+                <div class="info-divider"></div>
+                <div class="info-column">
+                    <h1>70,3 milhões</h1>
+                    <p>de pessoas passam por algum tipo de insegurança alimentar no Brasil, o que representa 32,8% da população brasileira</p>
+                </div>
+                <div class="info-divider"></div>
+                <div class="info-column">
+                    <h1>46 toneladas</h1>
+                    <p>de comida são desperdiçadas por ano no Brasil. Cerca de 30% da comida produzida por ano</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <section class="intro-section">
+        <div class="intro-header">
+            <h1>SAVE MORE</h1>
+            <p>Julho/2024</p>
+            <h2>DOANDO POR AMOR</h2>
+            <h1>COLETA E DISTRIBUIÇÃO</h1>
+        </div>
+        <div class="stats-columns">
+            <div class="stats-item">
+                <h1>XXX TONELADAS</h1>
+                <p>DOADOS</p>
+                <p>Alimentos doados no ano de 2024 com auxilio do projeto SaveMore</p>
+            </div>
+            <div class="stats-item">
+                <h1>XXX TONELADAS</h1>
+                <p>DOADOS</p>
+                <p>Alimentos doados no ano de 2024 com auxilio do projeto SaveMore</p>
+            </div>
+        </div>
+    </section>
+    <section class="cause-section">
+        <img src="{% static '/assets/imagens/img-ajudando-causa.png' %}" alt="Ajudando a Causa">
+        <div class="cause-text">
+            <h1>AJUDE A CAUSA</h1>
+            <p>No Brasil, milhões de pessoas precisam de ajuda diariamente. O SaveMore tem esse propósito, ajudar o máximo de pessoas que conseguir. Mas para isso, precisamos de sua ajuda.</p>
+        </div>
+    </section>
+    {% include 'partials/_footer.html' %}
+{% endblock %}

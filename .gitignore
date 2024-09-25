@@ -1,8 +1,9 @@
 # Created by https://www.toptal.com/developers/gitignore/api/django
 # Edit at https://www.toptal.com/developers/gitignore?templates=django
 
-## Anotações ##
+## Anotações e arquivos temporários##
 anotacoes.txt
+index-alter.html
 
 ### Django ###
 *.log
